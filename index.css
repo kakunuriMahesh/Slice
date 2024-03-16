@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+}
+.main-container {
+    background-color: rgb(154, 101, 200);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-image: linear-gradient(to right, black, white);
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 35px;
+}
+.logo{
+    height: 30px;
+    width: 95px;
+}
+.img-container div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.chip{
+    height: 35px;
+    width: 45px;
+    border-radius: 9px;
+    
+}
+.tap-s{
+    height: 35px;
+    margin-left: 20px;
+}
+.name p{
+    margin-left: 35px;
+    margin-bottom: 25px;
+    color: white;
+    font-family:sans-serif;
+    font-size: 12px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+/*  */
+.num-div {
+    width: 70px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.border-right {
+    position: absolute;
+    background-color: transparent;
+    width: 70px;
+    margin: 0px;
+    letter-spacing: 5px;
+    border-right: 2px solid black;
+    z-index: 1;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.border-botom {
+    height: 12.5px;
+    border-bottom: 2px solid black;
+    rotate: -3deg;
+    margin: 0px;
+}
+.fi{
+    height: 22.5px;
+}
+
+.border-left {
+    border-left: 2px solid black;
+    margin: 0px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.se-num {
+    border-right: 2px solid black;
+}
+
+.se {
+    height: 0px;
+}
+/*  */
+.num{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+.lable{
+    font-family: sans-serif;
+    font-size: 5px;
+    margin: 0px;
+}
+.value{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin: 0px;
+}
+.visa{
+    width: 70px;
+    margin-bottom: 5px;
+}
